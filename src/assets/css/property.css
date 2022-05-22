@@ -1,0 +1,79 @@
+/*
+ * 面向属性的 CSS
+ */
+
+/* 布局方式 */
+.df { display: flex; }
+.f1{
+  flex: 1;
+}
+.fn{
+  flex: none;
+}
+.aic{
+  align-items: center;
+}
+.jcc{
+  justify-content: center;
+}
+.fdc{
+  flex-direction: column;
+}
+.jcsb{
+  justify-content: space-between;
+}
+.jcsa{
+  justify-content:space-around
+}
+.dpb{
+  display: block;
+}
+
+.shadow{
+  box-shadow: 2px 2px 5px #ccc;
+}
+.ofs{
+  overflow-y: scroll;
+}
+.dpnone { display: none; }
+
+/* 盒模型 */
+.mt0 { margin-top: 0; }
+.mt8 { margin-top: 8px; }
+.mt10{
+  margin-top: 10px;
+}
+.mt16 { margin-top: 16px; }
+.mt20 { margin-top: 20px; }
+.mb20{
+  margin-bottom: 20px;
+}
+.br15{
+  border-radius: 15px;
+}
+.mt40 { margin-top: 40px; }
+
+.mr16 { margin-right: 16px; } 
+
+.mb16 { margin-bottom: 16px; }
+
+.ml12 { margin-left: 12px; }
+.bgw{
+  background-color: #fff;
+}
+.pd16 { padding: 16px; }
+.p20{
+  padding: 20px;
+}
+.pl8 { padding-left: 8px; }
+
+/* 字号 */
+.fs12 { font-size: 12px; }
+.fs18 { font-size: 18px; }
+
+
+.elli{
+  overflow: hidden;    
+  text-overflow:ellipsis;    
+  white-space: nowrap;
+}
